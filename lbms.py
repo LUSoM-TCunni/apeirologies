@@ -55,4 +55,4 @@ class BMS:
     def __ge__(self, other): return self.mat >= other.mat
     def __ne__(self, other): return self.mat != other.mat
 
-print(BMS("(0)(2)")[3][3][3][3])
+if __name__ == "__main__": print(BMS(input("Seq: "))[int(input("Index:"))])
